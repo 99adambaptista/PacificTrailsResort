@@ -10,6 +10,9 @@ header {
 	color: white;
 }
 
+/*
+gradient repeating on the x axis, not x and y
+*/
 body {
 	background: #00569f;
 	background-image: url("ptrbackground.jpg");
@@ -18,6 +21,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+auto margin centers the div
+*/
 #wrapper {
 	background: #8ddcfc;
 	margin: auto;
@@ -25,34 +31,37 @@ body {
 	min-width: 600px;
 }
 
+/*
+not 100% sure how it works, but the text now wraps around the image
+*/
 img {
 	float: left;
 	margin-right: 20px;
 }
 
+/*
+styling for "Pacific Trails Resort"
+*/
 .resort {
-	color: #5978b9;
+	color: #4965a0;
 	text-size-adjust: 10%;
 	font-weight: bold;
 }
 
+/*
+used borders to extend the nav bar, which allowed height to change with size
+*/
 #content {
 	background: white;
-	display: block;
-	left: 200px;
-	margin: auto;
 	padding-left: 40px;
 	border-left: 200px solid #8ddcfc;
 	padding-right: 15px;
 	height: auto;
-	
 }
 
 nav ul {
 	font-size: 1.2em;
 	list-style-type: none;
-	display: block;
-	text-justify: auto;
 	float: left;
 	width: 180px;
 	padding-top: 20px;
@@ -74,6 +83,9 @@ nav a:hover {
 	color: #FFFFFF;
 }
 
+/*
+styling for lists inside content
+*/
 #content li {
 	list-style-image: url("marker.gif");
 	list-style-position: inside;
@@ -100,12 +112,14 @@ dt {
 	color: #000033;
 }
 
+/*
+border from #content continued in footer
+*/
 footer {
 	background: white;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
 	font-size: small;
-	display: block;
 	padding: 20px;
 	padding-left: 30px;
 	border-left: 200px solid #8ddcfc;
